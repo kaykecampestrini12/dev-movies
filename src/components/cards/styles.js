@@ -19,5 +19,16 @@ h3{
   font-size: 1.2rem;
   margin-top: 15px;
 }
+
+ @media (max-width: 768px) {
+    img {
+      width: 180px;
+      border-radius: 15px;
+    }
+
+    h3 {
+      font-size: 0.95rem;
+    }
+  }
     
 `

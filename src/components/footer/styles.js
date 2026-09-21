@@ -7,7 +7,10 @@ export const FooterContainer = styled.div`
     padding: 50px 20px 25px;
     margin-top: 80px;
 
-
+    @media (max-width: 768px) {
+        padding: 35px 15px 20px;
+        margin-top: 50px;
+    }
 `
 
 export const Container = styled.div`
@@ -30,4 +33,15 @@ export const Container = styled.div`
     font-size: 15px;
     margin-bottom: 25px;
     }
+  
+    @media (max-width: 768px) {
+        h2 {
+            font-size: 24px;
+        }
+
+        p {
+            font-size: 13px;
+        }
+    }
+
 `

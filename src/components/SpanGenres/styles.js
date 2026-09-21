@@ -19,4 +19,16 @@ export const Container = styled.div`
         justify-content: center;
 
     }
+
+    @media (max-width: 768px) {
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 20px;
+
+    span {
+        padding: 6px 12px;
+        font-size: 11px;
+    }
+}
 `

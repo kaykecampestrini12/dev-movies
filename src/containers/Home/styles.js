@@ -51,6 +51,14 @@ export const Container = styled.div`
     max-width: 1200px; 
     position: relative;
     z-index: 2;
+
+    @media (max-width: 768px) {
+        flex-direction: column-reverse;
+        justify-content: center;
+        gap: 15px;
+        padding: 80px 20px 20px;
+        box-sizing: border-box;
+    }
 `
 
 export const Info = styled.div`
@@ -77,6 +85,29 @@ export const Info = styled.div`
         gap: 20px;
         margin-top: 20px;
     }
+
+@media (max-width: 768px) {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        text-align: center;
+
+        h1 {
+            font-size: 2rem;
+        }
+
+        p {
+            font-size: 0.95rem;
+            margin-top: 10px;
+            margin-bottom: 15px;
+        }
+
+        div {
+            justify-content: center;
+            gap: 10px;
+            margin-top: 10px;
+        }
+    }
 `
 
 export const Poster = styled.div`
@@ -86,5 +117,12 @@ export const Poster = styled.div`
         width: 400px;
         border-radius: 30px;
         animation: ${scale} 0.5s linear;
+    }
+
+ @media (max-width: 768px) {
+        img {
+            width: 180px;
+            border-radius: 15px;
+        }
     }
 `

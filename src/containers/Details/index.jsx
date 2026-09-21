@@ -77,9 +77,9 @@ function Details() {
               <h2>{movie.title || movie.name}</h2>
               <SpanGenres genres={movie.genres} />
               <p>{movie.overview}</p>
-              <div>
+              
                 <Credits info={movieCredits} />
-              </div>
+              
             </Info>
           </Container>
           <ContainerMovie>

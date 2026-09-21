@@ -14,7 +14,6 @@ function Credits({ info }) {
                 <p>{credit.name}</p>
               </div>
           ))}
-          <div></div>
         </Container>
       )}
     </>

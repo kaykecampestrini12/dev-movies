@@ -85,15 +85,14 @@ export const Container = styled.div`
     }
   }
 
-  @media (max-width: 768px) {
-    width: 90%;
-
-    button {
-      top: -45px;
-      font-size: 32px;
+@media (max-width: 768px) {
+    iframe {
+        width: 95%;
+        height: auto;
+        aspect-ratio: 16 / 9;
     }
-  }
-`;
+}
+`
 
 
 
