@@ -12,7 +12,7 @@ O projeto permite visualizar conteúdos em destaque, consultar detalhes de filme
 
 ## 🚀 Demonstração
 
-🔗 **[Acessar o projeto](https://dev-movies-2usl.vercel.app/)**
+🔗 **[Acessar o projeto](https://dev-movies-hazel.vercel.app/)**
 
 ## 📸 Preview
 
