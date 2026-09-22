@@ -20,6 +20,13 @@ export const BackGround = styled.div`
     align-items: center;
     justify-content: center;
 
+@media (max-width: 768px) {
+    height: auto;
+    min-height: 100vh;
+    padding: 80px 0 40px;
+    box-sizing: border-box;
+}
+
     &::before {
         content: '';
         position: absolute;

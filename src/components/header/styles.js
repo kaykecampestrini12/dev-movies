@@ -20,14 +20,17 @@ export const Container = styled.div`
     width: 25%;
   }
 
-  @media (max-width: 768px) {
-    padding: 10px 20px;
+    @media (max-width: 768px) {
+        width: 100%;
+        min-height: 100px;
+        padding: 12px 20px;
+        box-sizing: border-box;
 
-    img {
-      width: 35%;
+        img {
+            width: 40%;
+        }
     }
-  }
-`;
+  `
 
 export const Menu = styled.ul`
   display: flex;
@@ -46,7 +49,7 @@ export const Li = styled.li`
   position: relative;
 
   @media (max-width: 768px) {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 
   a {

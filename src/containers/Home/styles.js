@@ -20,6 +20,13 @@ export const BackGround = styled.div`
     align-items: center;
     justify-content: center;
 
+@media (max-width: 768px) {
+    height: auto;
+    min-height: 100vh;
+    padding: 80px 0 40px;
+    box-sizing: border-box;
+}
+
     &::before {
         content: '';
         position: absolute;
@@ -52,13 +59,13 @@ export const Container = styled.div`
     position: relative;
     z-index: 2;
 
-    @media (max-width: 768px) {
-        flex-direction: column-reverse;
-        justify-content: center;
-        gap: 15px;
-        padding: 80px 20px 20px;
-        box-sizing: border-box;
-    }
+@media (max-width: 768px) {
+    flex-direction: column-reverse;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+}
 `
 
 export const Info = styled.div`
@@ -87,27 +94,27 @@ export const Info = styled.div`
     }
 
 @media (max-width: 768px) {
-        width: 100%;
-        padding: 10px;
-        box-sizing: border-box;
-        text-align: center;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
 
-        h1 {
-            font-size: 2rem;
-        }
-
-        p {
-            font-size: 0.95rem;
-            margin-top: 10px;
-            margin-bottom: 15px;
-        }
-
-        div {
-            justify-content: center;
-            gap: 10px;
-            margin-top: 10px;
-        }
+    h1 {
+        font-size: 2rem;
     }
+
+    p {
+        font-size: 0.95rem;
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+
+    div {
+        justify-content: center;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+}
 `
 
 export const Poster = styled.div`
@@ -119,10 +126,10 @@ export const Poster = styled.div`
         animation: ${scale} 0.5s linear;
     }
 
- @media (max-width: 768px) {
-        img {
-            width: 180px;
-            border-radius: 15px;
-        }
+@media (max-width: 768px) {
+    img {
+        width: 180px;
+        border-radius: 15px;
     }
+}
 `
